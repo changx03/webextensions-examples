@@ -26,8 +26,7 @@ that image, then insert the node into the document.
 function insertBeast(beastURL) {
   var beastImage = document.createElement("img");
   beastImage.setAttribute("src", beastURL);
-  beastImage.setAttribute("style", "width: 100vw");
-  beastImage.setAttribute("style", "height: 100vh");
+  beastImage.setAttribute("style", "height: 100vh;width: 100vw");
   document.body.appendChild(beastImage);
 }
 
